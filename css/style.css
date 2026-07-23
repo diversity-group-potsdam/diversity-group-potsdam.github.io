@@ -112,7 +112,7 @@ a:hover { text-decoration: underline; }
   position: relative;
   padding: 96px 0 72px;
   background-image:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.88) 60%, var(--color-bg) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0.72) 60%, var(--color-bg) 100%),
     url("../assets/img/hero-potsdam.jpg");
   background-size: cover;
   background-position: center 65%;
@@ -237,17 +237,12 @@ a:hover { text-decoration: underline; }
 .person-card-alum { opacity: 0.75; }
 
 .avatar {
-  width: 64px;
-  height: 64px;
+  width: 72px;
+  height: 72px;
   margin: 0 auto 12px;
   border-radius: 50%;
-  background: var(--color-border);
-  color: var(--color-text-muted);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-serif);
-  font-weight: 600;
+  object-fit: cover;
+  display: block;
 }
 
 .person-card h4 { margin-bottom: 2px; font-size: 1.05rem; }
