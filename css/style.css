@@ -112,7 +112,7 @@ a:hover { text-decoration: underline; }
   position: relative;
   padding: 96px 0 72px;
   background-image:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.52) 0%, rgba(255, 255, 255, 0.72) 60%, var(--color-bg) 100%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.55) 60%, var(--color-bg) 100%),
     url("../assets/img/hero-potsdam.jpg");
   background-size: cover;
   background-position: center 65%;
@@ -253,6 +253,8 @@ a:hover { text-decoration: underline; }
 .person-card h4 { margin-bottom: 2px; font-size: 1.05rem; }
 .role { color: var(--color-text-muted); font-size: 0.9rem; margin: 0 0 8px; }
 .links { font-size: 0.85rem; margin: 0; }
+.orcid { font-size: 0.78rem; color: var(--color-text-muted); margin: 4px 0 0; }
+.orcid a { color: inherit; }
 
 /* Publications */
 .pub-list {
