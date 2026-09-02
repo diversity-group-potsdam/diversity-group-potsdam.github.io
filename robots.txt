@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://diversity-group-potsdam.github.io/sitemap.xml
