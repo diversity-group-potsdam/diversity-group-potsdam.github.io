@@ -341,6 +341,28 @@ a:hover { text-decoration: underline; }
   border-radius: 8px;
   border: 1px solid var(--color-border);
   display: block;
+  cursor: zoom-in;
+  transition: opacity 0.15s;
+}
+.event-photos img:hover { opacity: 0.85; }
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(20, 19, 17, 0.9);
+  align-items: center;
+  justify-content: center;
+  padding: 32px;
+  cursor: zoom-out;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 4px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 }
 
 /* Contact */
