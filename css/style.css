@@ -65,7 +65,7 @@ a:hover { text-decoration: underline; }
   align-items: center;
   gap: 10px;
   font-weight: 700;
-  color: var(--color-text);
+  color: var(--color-accent-dark);
 }
 .brand:hover { text-decoration: none; }
 
@@ -224,6 +224,19 @@ a:hover { text-decoration: underline; }
 .card h3 { font-size: 1.1rem; }
 .card p { color: var(--color-text-muted); margin: 0; font-size: 0.95rem; }
 .card p.card-link { margin-top: 12px; font-size: 0.88rem; }
+
+.card-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+.card-icon svg { width: 19px; height: 19px; }
+.card-icon-navy { background: rgba(47, 76, 119, 0.12); color: var(--color-accent-dark); }
+.card-icon-warm { background: rgba(237, 126, 50, 0.14); color: var(--color-accent-warm-dark); }
 
 .resource-detail { margin-top: 20px; }
 .resource-detail p { margin-bottom: 14px; }
