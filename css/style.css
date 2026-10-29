@@ -252,6 +252,7 @@ a:hover { text-decoration: underline; }
   background: var(--color-bg);
   text-align: center;
 }
+.person-card-alum { opacity: 0.8; }
 
 .avatar {
   width: 72px;
