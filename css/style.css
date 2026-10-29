@@ -359,6 +359,16 @@ a:hover { text-decoration: underline; }
 }
 .event-photos img:hover { opacity: 0.85; }
 
+.event-photos-single {
+  grid-template-columns: none;
+}
+.event-photos-single img {
+  width: auto;
+  max-width: 340px;
+  height: auto;
+  object-fit: contain;
+}
+
 .lightbox {
   display: none;
   position: fixed;
