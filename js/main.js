@@ -40,3 +40,10 @@ lightbox.addEventListener('click', closeLightbox);
 document.addEventListener('keydown', (e) => {
   if (e.key === 'Escape') closeLightbox();
 });
+
+const newsToggleBtn = document.getElementById('newsToggleBtn');
+if (newsToggleBtn) {
+  newsToggleBtn.addEventListener('click', () => {
+    newsToggleBtn.closest('.event-list').classList.add('expanded');
+  });
+}

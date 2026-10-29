@@ -320,6 +320,28 @@ a:hover { text-decoration: underline; }
 }
 .event:first-child { padding-top: 0; border-top: none; }
 
+.event-older { display: none; }
+.event-list.expanded .event-older { display: block; }
+
+.event-more-toggle {
+  padding: 28px 0 0;
+  text-align: center;
+}
+.event-list.expanded .event-more-toggle { display: none; }
+
+.news-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  color: var(--color-accent);
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 10px 24px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.news-toggle:hover { background: var(--color-bg-alt); border-color: var(--color-accent); }
+
 .event-date {
   display: block;
   color: var(--color-accent-warm);
