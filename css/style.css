@@ -392,6 +392,18 @@ a:hover { text-decoration: underline; }
   object-fit: contain;
 }
 
+.event-photos-duo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.event-photos-duo img {
+  width: auto;
+  height: 280px;
+  max-width: 100%;
+  background: none;
+}
+
 .lightbox {
   display: none;
   position: fixed;
